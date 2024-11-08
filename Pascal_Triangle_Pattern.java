@@ -8,7 +8,7 @@ public class Pascal_Triangle_Pattern {
       int k = 1; // for number appearance and for starting number track
       for (int j = 1; j <= i; j++) {
         System.out.print(k + " ");
-        k = k * (i - j) / (j);
+        k = k * (i - j) / (j); // calculate based on appearance of row according to element
       }
       System.out.println();
     }
