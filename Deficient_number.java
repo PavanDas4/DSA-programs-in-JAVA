@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Deficient_number {
   public static boolean isDeficient(int n) {
     int sum = 0; // initilaize sum 
-    for (int i = 1; i < n / 2; i++) { // run loop till half of n
+    for (int i = 1; i <= n / 2; i++) { // run loop till half of n
       if (n % i == 0) { // check if n is divisible by i
         sum += i; // add i to sum
       }
