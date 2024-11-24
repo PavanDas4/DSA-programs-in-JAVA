@@ -1,5 +1,5 @@
 // Pyramid of numbers pattern
-public class PyramidOfNumbers {
+public class solution {
   public static void main(String[] args) {
     int k = 1; // intialized number variable for increment in every elements
     int n = 4; // number of rows

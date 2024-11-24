@@ -1,12 +1,8 @@
 
-/*
- * Move all zeros to the end of the array
- * Input: [0, 0, 5, 10, 10, 0]
- * Output: [5, 10, 10, 0, 0, 0]
- */
+// Move all zeros to the end of the array
 import java.util.Arrays;
 
-public class AllZeros_to_End {
+public class solution {
   public static String EndZero(int[] arr) {
     int counter = 0; // initialize counter for traversing array
     for (int i = 0; i < arr.length; i++) {

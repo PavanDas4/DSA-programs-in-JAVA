@@ -1,14 +1,9 @@
-/*
- * Even Number of Digits
- * Given an array of integers, return a new array such that each element with an even number of digits
- * Example: [1, 23, 456, 7890] -> [23, 7890]
- * Number of Digits in 23 and 7890 i.e 2 and 4 which are even numbers
- */
 
+// Even Number of Digits
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class Even_Number_of_digits {
+public class solution {
   public static ArrayList<Integer> EvenNumbers(int[] arr) {
     ArrayList<Integer> even = new ArrayList<Integer>(); // Declaring the arraylist
     for (int i = 0; i < arr.length; i++) {
@@ -48,9 +43,3 @@ public class Even_Number_of_digits {
     scanner.close();
   }
 }
-/*
- * Output:
- * Enter the size of the array: 4
- * Enter 4 Integers: 1 23 456 7890
- * [23, 7890]
- */

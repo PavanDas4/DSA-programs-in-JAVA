@@ -1,11 +1,10 @@
-// Cumulative Sums of an Array
-// Cumulative Sum is the sum of the first i elements of an array.
-// example: [1,2,3,4] -> [1,3,6,10]
+
+// Cumulative sums of an Array
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class CumulativeSums {
-  public static int[] CumulativeSum(int[] arr) { 
+public class solution {
+  public static int[] CumulativeSum(int[] arr) {
     int sum = 0; // initialize sum
     int[] arr2 = new int[arr.length]; // initialize arr2
     for (int i = 0; i < arr.length; i++) { // loop
@@ -21,7 +20,6 @@ public class CumulativeSums {
     int num = scanner.nextInt(); // number of elements
     int[] arr = new int[num]; // initialize array
     for (int i = 0; i < num; i++) {
-      System.out.print("Enter element " + i + ": "); 
       arr[i] = scanner.nextInt(); // add elements
     }
     scanner.close();
@@ -33,13 +31,3 @@ public class CumulativeSums {
     System.out.println(Arrays.toString(CumulativeSum(arr))); // print cumulative sum array
   }
 }
-
-/*
-output:
-Enter the number of elements: 4
-Enter element 0: 1
-Enter element 1: 2
-Enter element 2: 3
-Enter element 3: 4
-[1, 3, 6, 10]
- */

@@ -1,4 +1,4 @@
-public class Pascal_Triangle_Pattern {
+public class solution {
   public static void main(String[] args) {
     int n = 4; // number of rows in the triangle
     for (int i = 0; i <= n; i++) {

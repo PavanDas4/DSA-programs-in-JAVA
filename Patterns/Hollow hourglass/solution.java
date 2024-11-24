@@ -1,5 +1,5 @@
 // hollow_hourglass pattern
-public class hollow_hourglass {
+public class solution {
   public static void main(String[] args) {
     int i, j, n; // initialized loop variables
     n = 5; // set rows
