@@ -1,11 +1,9 @@
-// Positive Cumulative Sum
-// Positive Cumulative is the sum of an arrays elements and filter it with removing negative elements
-// example: [-1, -2, 4, 5] => [0, 0, 1, 6]
 
+// Positive cumulative sum
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Positive_Cumulative_Sums {
+public class solution {
   public static int[] PositiveCumulativeSum(int[] arr) {
     int[] cumSum = new int[arr.length]; // Create a new array to store the cumulative sum
     int[] PosCumSum = new int[arr.length]; // Create a new array to store the positive cumulative sum
@@ -26,7 +24,7 @@ public class Positive_Cumulative_Sums {
     int n = scanner.nextInt(); // size of the array
     int[] arr = new int[n]; // create an array with given size
     for (int i = 0; i < n; i++) {
-      System.out.print("Enter element " + i + ": "); 
+      System.out.print("Enter element " + i + ": ");
       arr[i] = scanner.nextInt(); // input elements
     }
     scanner.close();
@@ -39,13 +37,3 @@ public class Positive_Cumulative_Sums {
     System.out.println("Positive Cumulative Sum: " + Arrays.toString(PositiveCumulativeSum(arr)));
   }
 }
-/*
-output:
-Enter the size of the array: 4
-Enter element 0: -1
-Enter element 1: -2
-Enter element 2: 4
-Enter element 3: 5
-Original Array: [-1, -2, 4, 5]
-Positive Cumulative Sum: [0, 0, 1, 6]
- */

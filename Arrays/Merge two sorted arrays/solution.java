@@ -1,9 +1,5 @@
-/*
- * Merge Sorted Arrays
- * Given two sorted arrays, merge them into one sorted array
- * Example: arr1 = [1, 2, 2, 5, 5, 7] , arr2 = [2, 4, 6, 8] => [1, 2, 2, 3, 4, 5, 6, 8]
- */
-public class MergeSortedArrays {
+// Merge Sorted Arrays
+public class solution {
     public static int[] merge(int[] arr1, int[] arr2) {
         int[] result = new int[arr1.length + arr2.length];
         int i = 0, j = 0, k = 0; // i for arr1, j for arr2
@@ -24,13 +20,9 @@ public class MergeSortedArrays {
     }
 
     public static void main(String[] args) {
-        int[] arr1 = { 1, 2, 2, 5, 5, 7};
+        int[] arr1 = { 1, 2, 2, 5, 5, 7 };
         int[] arr2 = { 2, 4, 6, 8 };
         int[] result = merge(arr1, arr2);
         System.out.println(java.util.Arrays.toString(result));
     }
 }
-/*
- * Output:
- * [1, 2, 2, 2, 4, 5, 5, 6, 7, 8]
- */

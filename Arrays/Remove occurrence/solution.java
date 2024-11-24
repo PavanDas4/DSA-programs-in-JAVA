@@ -1,15 +1,11 @@
 
-/*
- * Remove Occurrence of an element from an array
- * Remove all duplicated elements from an array and return the new array with size
- * Example: Input: [1, 2, 2, 3, 4, 4] Output: [1, 2, 3, 4]
- */
+// Remove occurences
 import java.util.Set;
 import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Scanner;
 
-public class Remove_Occurence {
+public class solution {
   public static int[] RemoveOccurrence(int[] arr) {
     Set<Integer> set = new HashSet<>(); // HashSet to store unique elements
     for (int i = 0; i < arr.length; i++) {
@@ -30,7 +26,8 @@ public class Remove_Occurence {
       arr[i] = scanner.nextInt(); // Input the elements
     }
     scanner.close();
-    System.out.println("Removed duplicate element of array: " + Arrays.toString(RemoveOccurrence(arr)) + "\nSize of the array: " + RemoveOccurrence(arr).length);
+    System.out.println("Removed duplicate element of array: " + Arrays.toString(RemoveOccurrence(arr))
+        + "\nSize of the array: " + RemoveOccurrence(arr).length);
   }
 }
 /*

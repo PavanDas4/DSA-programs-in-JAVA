@@ -1,13 +1,10 @@
 
-/*
- * Sum is 0 of a sorted array
- * Program to check if array contains a pair with sum 0
- * Example: arr = {-3, 1, 2, -2, 5, 6} => true
- */
+// Sum of two pair is zero
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Two_Sum_Sorted {
+public class solution {
+
   public static boolean hassum0(int[] arr) {
     boolean flag = false;
     for (int i = 0; i < arr.length; i++) { // first pointer

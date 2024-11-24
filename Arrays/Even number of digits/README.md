@@ -1,11 +1,11 @@
-# Even number of digits
+# Even Number of Digits
 Given an array of integers, find the elements which have an even number of digits.
 ## Prerequisites
 ~~~java
 import java.util.ArrayList;
 import java.util.Scanner;
 ~~~
-### Example:
+### Example
 ```
 Input: [1, 23, 456, 7890] Output: [23, 7890]
 ```

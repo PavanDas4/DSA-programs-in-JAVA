@@ -1,13 +1,8 @@
-/*
- * K Subarray Sum
- * Given an array of positive numbers and a positive number ‘k’, find the maximum sum of any contiguous subarray of size ‘k’.
- * Example: {3, 5, 6, 2, 4, 7, 8} and k = 3
- * Output: [14, 13, 12, 13, 19]
- */
 
+// K Subarray Sum
 import java.util.Arrays;
 
-public class K_SubarraySum {
+public class solution {
   public static void main(String[] args) {
     int[] arr = { 3, 5, 6, 2, 4, 7, 8 }; // input array
     int k = 3; // size of subarray
@@ -20,7 +15,3 @@ public class K_SubarraySum {
     System.out.println(Arrays.toString(arr2)); // print output array
   }
 }
-/*
- * Output:
- * [14, 13, 12, 13, 19]
- */

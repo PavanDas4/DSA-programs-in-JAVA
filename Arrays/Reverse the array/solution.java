@@ -1,10 +1,11 @@
-// import Arrays module to print the array
+
+// Reverse the array
 import java.util.Arrays;
 
-public class Reverse_the_Array {
+public class solution {
   // create a function to reverse an array
   public static String reverseArray(int[] arr) {
-    // initialize three variables 
+    // initialize three variables
     int head, end, temp;
     head = 0; // initialize head as first index of array
     end = arr.length - 1; // initialize end as last index of array

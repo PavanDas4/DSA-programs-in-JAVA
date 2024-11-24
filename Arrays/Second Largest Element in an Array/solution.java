@@ -1,19 +1,16 @@
-/*
- * Find the second largest element in an array
- * Input: {3, 2, 1, 5, 5, 4}
- * Output: 4
- */
 
+// Find the second largest element in an array
 import java.util.Arrays;
 
-public class SecondLargest {
+public class solution {
   public static int sol(int[] arr) {
     Arrays.sort(arr); // sort the array
     int largest = arr[arr.length - 1]; // get the largest element
     int secondLargest = -1; // initialize the second largest element
     for (int i = 0; i < arr.length; i++) {
       if (arr[i] < largest && arr[i] != largest) {
-        // check if the current element is smaller than the largest element and not equal
+        // check if the current element is smaller than the largest element and not
+        // equal
         secondLargest = arr[i]; // update the second largest element
       }
     }
