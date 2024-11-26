@@ -1,30 +1,36 @@
+//Majority Element II
 
-// Majority element II
 import java.util.ArrayList;
-import java.util.Arrays;
+import java.util.List;
+import java.util.Scanner;
 
 public class solution {
-  public static ArrayList<Integer> Majority(int[] arr) {
-    ArrayList<Integer> list = new ArrayList<Integer>(); // Declaring the arraylist
-    Arrays.sort(arr); // Sorting the array
-    for (int i = 0; i < arr.length; i++) {
-      if (i == 0 || arr[i] != arr[i - 1]) {
-        int count = 1; // initializing count
-        while (i + 1 < arr.length && arr[i] == arr[i + 1]) {
-          count++; // incrementing count
-          i++;
-        }
-        if (count > arr.length / 3 && !list.contains(arr[i])) { // check if count is greater than n/3
-          list.add(arr[i]);
+  public static List<Integer> majorityElement(int[] nums) {
+    List<Integer> max3 = new ArrayList<>(); // List to store the majority elements
+    for (int i : nums) { // Iterate through the array
+      int target = nums[i]; // Get the current element
+      int count = 1; // Initialize the count
+      for (int j = 0; j < nums.length; j++) {
+        if (nums[j] == target) { // Count the number of occurrences
+          count++;
         }
       }
+      if (count > 3 && !max3.contains(target)) {
+        // If the count is greater than 3 and the element is not already in the list
+        max3.add(target);
+      }
     }
-    return list;
+    return max3;
   }
 
   public static void main(String[] args) {
-    int arr[] = { 2, 2, 3, 1, 3, 2, 1, 1 };
-    System.out.println(Arrays.toString(Majority(arr).toArray()));
-    // Convert ArrayList to array and then convert array to string
+    Scanner sc = new Scanner(System.in);
+    int n = sc.nextInt();
+    int[] arr = new int[n];
+    for (int i = 0; i < n; i++) {
+      arr[i] = sc.nextInt();
+    }
+    sc.close();
+    System.out.println(majorityElement(arr));
   }
 }
