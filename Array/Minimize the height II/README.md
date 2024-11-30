@@ -18,5 +18,5 @@ k = 2
 Output : 5
 ```
 ```diff
-! [Note](https://img.shields.io/badge/Note-red): It is compulsory to increase or decrease the height by K for each tower. After the operation, the resultant array should not contain any negative integers.
+![Note](https://img.shields.io/badge/Note-red): It is compulsory to increase or decrease the height by K for each tower. After the operation, the resultant array should not contain any negative integers.
 ```
