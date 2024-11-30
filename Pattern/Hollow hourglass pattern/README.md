@@ -6,5 +6,11 @@ import java.util.Scanner;
 ```
 ### Example
 ```
-
+Input  : 5
+Output :
+* * * * *
+  *   *
+    *
+  *   *
+* * * * *
 ```

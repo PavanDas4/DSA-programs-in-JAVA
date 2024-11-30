@@ -10,6 +10,5 @@ import java.util.Scanner;
 Input  : [1, 23, 456, 7890]
 Output : [23, 7890]
 ```
-```diff
-! Note: Must contain an element with  even number of digits in array
-```
+![Note](https://img.shields.io/badge/Note-red) <br>
+Must contain an element with  even number of digits in array

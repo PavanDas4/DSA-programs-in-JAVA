@@ -9,6 +9,5 @@ import java.util.Scanner;
 Input  : s1 = "act", s2 = "cat"
 Output : true
 ```
-```diff
-!Note: You can assume both the strings s1 & s2 are non-empty.
-```
+![Note](https://img.shields.io/badge/Note-red)<br>
+You can assume both the strings s1 & s2 are non-empty.

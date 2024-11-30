@@ -12,6 +12,5 @@ import java.util.Scanner;
 Input  : [1, 2, 2, 3, 4, 4]
 Output : [1, 2, 3, 4]
 ```
-```diff
-! Note: must contain duplicated elements
-```
+![Note](https://img.shields.io/badge/Note-red) <br>
+Must contain duplicated elements

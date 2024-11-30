@@ -9,6 +9,5 @@ import java.util.Arrays;
 Input  : [0, 0, 5, 10, 10, 0]
 Output : [5, 10, 10, 0, 0, 0]
 ```
-```diff
-! Note: To see the results, must add element 0 in input
-```
+![Note](https://img.shields.io/badge/Note-red) <br>
+To see the results, must add element 0 in input
